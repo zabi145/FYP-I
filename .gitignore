@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# React Native
+node_modules/
+.bundle/
+.metro-health-check*
+
+# Uploaded student data
+Backend/API/Videos/
+Backend/API/Images/
+Backend/API/uploads/
+
+# Python generated files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android generated files
+**/build/
+**/.gradle/
+**/.cxx/
+**/local.properties
+
+# iOS generated files
+**/Pods/
+**/DerivedData/
+**/build/
+
+# APK files
+*.apk
+*.aab
